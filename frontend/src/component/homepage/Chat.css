@@ -1,0 +1,107 @@
+.leftContent {
+  width: 300px;
+  background-color: #f0f2f5;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+/* .leftContent1 {
+    width: 300px;
+    background-color: #f0f2f5;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+  } */
+
+.rightContent {
+  width: 250px;
+  background-color: #f0f2f5;
+  padding: 10px;
+  border-left: 1px solid #ddd;
+  margin-top: 3%;
+}
+
+/* .rightContent1 {
+  width: 250px;
+  background-color: #f0f2f5;
+  padding: 10px;
+  border-left: 1px solid #ddd;
+  margin-top: 3%;
+  margin-right: 10%;
+} */
+
+.sidepanel {
+  margin-top: 50px;
+  position: fixed;
+  height: 100vh;
+  background-color: #01848f;
+  width: 0; /* Set initial width to 0 for closed state */
+  overflow: hidden;
+  transition: width 0.3s ease;
+  color: #f1f1f2;
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 10%;
+}
+
+.sidepanel.open {
+  width: 250px; /* Desired width when open */
+}
+
+.sidepanel span {
+  display: block;
+  padding: 1em;
+}
+
+.circle {
+  position: fixed; /* Keep it fixed on screen */
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 16px;
+  background-color: #ef4581;
+  color: #f1f1f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  right: 10px; /* Adjust position as desired */
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+
+
+
+
+@media only screen and (min-width: 769px) {
+  .sidepanel {
+    display: none; /* Hide side panel on larger screens */
+    
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .leftContent {
+    display: none; /* Hide right sidebar on mobile */
+  }
+  .rightContent{
+    display: none; /* Hide right sidebar on mobile */
+  }
+  #inputarea{
+    height: 20%;
+  }
+  #buttonimg{
+    width: 50px;
+    padding: 6px;
+              border-radius: 20px;
+              border: 1px solid #ccc;
+              margin-right: 5px;
+  }
+  #senditems{
+    width: 60px;
+  }
+}

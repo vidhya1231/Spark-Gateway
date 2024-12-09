@@ -1,0 +1,201 @@
+
+ #cards1{
+  
+ /* justify-content: center !important;
+ 
+ align-items: center !important; */
+ justify-items: center !important;
+ 
+/* margin-left: 10% !important; */
+ }
+ #sidebar{
+  height: 85vh;
+  /* overflow-y: scroll; */
+  scrollbar-width: none;
+  /* height: 89vh; */
+  justify-content: space-between;
+ }
+
+ #sidebar img {
+  width: 50%;
+  height: 50%;
+  /* margin-top: -35px; */
+  margin-left: 75px;
+}
+#profileName {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  
+}
+/* Adjust spacing for navigation items */
+#navitem1 {
+  margin-bottom: 1px; /* Adjust the spacing here */
+ 
+}
+ #box2{
+  height: 95vh !important;
+  overflow-y: scroll;
+  scrollbar-width: none;
+
+}
+#noon2{
+  height: 92vh;
+}
+#categoryDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.categoryTitle{
+  margin-bottom: 0;
+  margin-left: 2vh;
+  font-size: 2vh;
+  font-weight: 700;
+  font-family: cursive;
+}
+#addContainer{
+  background-color: #f0f0f0;
+  padding: 1.5vh;
+  border-radius: 1vh;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+.postOverAllDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.comment-section {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 10px;
+}
+
+.comment-body {
+  background-color: #f0f2f5;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.comment-body .name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comment-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.comment-input {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.comment-input textarea {
+  flex: 1;
+  resize: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.comment-input button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.comment-input button:hover {
+  background-color: #0056b3;
+}
+.commentBoxContainer{
+  padding: 2vh;
+}
+/* dummy img */
+
+.commentBoxContainerTop{
+/* background-color: red; */
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 2vh;
+}
+.commentImageContainer{
+background-color: #fff;
+border-radius: 4vh;
+margin-right: 2vh;
+}
+.commentImageBg{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 4vh;
+  z-index: 0;
+  object-fit: cover;
+  /* margin-left: -3vh; */
+}
+
+/* dummy img */
+.commentImage{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 4vh;
+  z-index: -1;
+  margin-left: -7vh;
+  object-fit: cover;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  #noon1, #noon2 {
+    display: none !important; /* Hide the elements on smaller screens */
+  }
+  
+  #cards {
+    /* background-color: aqua !important;  */
+    width: auto !important;
+  }
+  #form11{
+    margin-left: 10% !important;
+    margin-top: 1% !important;
+  }
+  #box1{
+   
+    width: 85% !important;
+  }
+  #box2{
+    margin-top: -10px !important;
+    height: 93vh !important;
+  }
+}
+

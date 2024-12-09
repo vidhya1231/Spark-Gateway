@@ -1,0 +1,221 @@
+#chat-area::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+  
+.scrollable-row {
+    overflow-x: auto; /* Enables horizontal scrolling */
+    white-space: nowrap; /* Prevents wrapping */
+    scrollbar-width: none; /* For Firefox */
+  }
+  
+  /* For WebKit browsers (Chrome, Safari) */
+  .scrollable-row::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+
+.text-items {
+    margin: 20px;
+}
+
+.text-items h5 {
+    margin-left: 39%;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.text-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    gap: 20px;
+}
+
+.text-item {
+    flex: 1 1 calc(25% - 20px); 
+    background-color: rgb(220, 220, 245); 
+    padding: 10px;
+    border-radius: 5px; 
+    text-align: center; 
+    transition: background-color 0.3s ease;
+}
+
+.text-item:hover {
+    background-color: rgb(200, 200, 230);
+}
+
+
+
+/*   
+  .card-img-top {
+    height: 100px;
+    background-color: #ffa41b;
+    object-fit: cover;
+  } */
+  
+  .card-title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .rating {
+    font-size: 0.9rem;
+    color: #ffa41b;
+  }
+  
+  .price {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .badge {
+    font-size: 0.8rem;
+  }
+  #noon3{
+    display: none;
+  }
+
+
+
+
+
+
+  .buy-button {
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #007bff; /* Change to desired hover color */
+    color: white; /* Change text color on hover */
+  }
+  
+
+
+
+  .div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px; /* Max width for larger screens */  
+    display: 'flex'; 
+    flex-direction: 'row'; 
+    align-items: 'flex-start' ; 
+    margin-top: '1vh';
+}
+
+
+.entry {
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+#Card1{
+    width: 50%;
+   height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+
+#sidebar-left, #sidebar-right {
+      background-color: white;
+}
+
+.selectedVideoDiv{
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+}
+
+
+
+  @media (max-width: 768px) {
+    #modaledit{
+      margin-top: 10% !important;
+      margin-left: -4% !important;
+    }
+    #boxsize{
+      width: 25% !important; 
+      margin-left: 38% !important;
+    }
+    #modalbody{
+      margin-top: 1% !important;
+  
+      /* background-color: #ffa41b !important; */
+    }
+
+    .div1 {
+        flex-direction: column; /* Stack inputs vertically */
+    }
+
+    button {
+        width: 100%; /* Full width on small screens */
+    }
+    /* Hide sidebars on smaller screens */
+    #sidebar-left, #sidebar-right {
+      
+      display: none;
+    }
+  
+    /* Full width for the main container */
+    #chat-area {
+      margin-top: 5%;
+      padding: 10px;
+    }
+  
+    /* Course cards should be full width in mobile view */
+    .scrollable-row .d-inline-block {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    /* Adjust carousel height */
+    .carousel-container img {
+      height: 250px !important;
+      margin-top: 10%;
+    }
+  
+    /* Adjust font sizes */
+    .card-title {
+      font-size: 1rem;
+    }
+  
+    .price {
+      font-size: 0.9rem;
+    }
+  
+    /* Align text items in a single column */
+    .text-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .text-item {
+      flex: 1 1 100%;
+      margin: 5px 0;
+    }
+    .text-items h5 {
+        margin-left: 0;
+        margin-bottom: 10px;
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+        font-weight: 300px;
+    }
+  }
+  

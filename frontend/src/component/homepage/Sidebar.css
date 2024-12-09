@@ -1,0 +1,96 @@
+/* Basic Sidebar Styles */
+.sidebar {
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    
+
+    width: 250px;
+    /* position: fixed; */
+    
+  }
+  
+  .sidebar h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sidebar .nav-link {
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    color:rgb(14, 13, 13);
+    transition: background 0.3s;
+    border-radius: 4px;
+    text-decoration: none; /* Remove underline */
+    
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: #0876e4;
+    color: #007bff;
+  }
+  
+  .sidebar .nav-link .icon {
+    margin-right: 1%; /* Add space between icon and text */
+    
+    
+  }
+  
+  
+  
+  
+  .sidebar .nav-item {
+    list-style: none; /* Remove bullet points */
+  }
+  .nav-item .me-3{
+    gap: 20px;
+  }
+  
+  /* Responsive Sidebar Adjustments */
+  @media (max-width: 992px) {
+    .sidebar {
+      width: 200px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      /* border-right: none; */
+      position: relative;
+    }
+  
+    .sidebar h2 {
+      text-align: left;
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }
+  
+    .sidebar .nav-link {
+      padding: 8px 12px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      font-size: 0.85rem;
+    }
+  
+    .sidebar h2 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .sidebar .nav-link {
+      padding: 6px 10px;
+      font-size: 1rem;
+    }
+  }
+  

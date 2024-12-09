@@ -1,0 +1,101 @@
+.background-container {
+    /* background: linear-gradient(to right, #4e54c8, #8f94fb); */
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registration-form{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    height: 80vh;
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+}
+/* .register-box {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    height: 90vh;
+    max-width: 400px;
+    text-align: center;
+    position: relative;
+} */
+
+.icon-container {
+    background-color: #4e54c8;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.register-title {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #4e54c8;
+}
+
+.error-text {
+    color: red;
+    font-size: 0.9em;
+}
+
+.success-text {
+    color: green;
+    font-size: 0.9em;
+}
+
+.register-btn {
+    background-color: #4e54c8;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.login-link {
+    font-size: 0.9em;
+    margin-top: 15px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 576px) {
+    .register-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .icon-container {
+        width: 50px;
+        height: 50px;
+        top: -25px;
+    }
+
+    .register-title {
+        font-size: 1.5em;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .error-text,
+    .success-text {
+        font-size: 0.8em;
+    }
+
+    .login-link {
+        font-size: 0.8em;
+    }
+}

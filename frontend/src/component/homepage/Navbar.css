@@ -1,0 +1,13 @@
+.nav-link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: color 0.3s;
+  
+}
+
+.nav-link:hover {
+  color: #92b8fa; /* Change color on hover */
+}

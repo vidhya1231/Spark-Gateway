@@ -1,0 +1,96 @@
+
+ /* .right-sidebar {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .right-sidebar .card {
+    border: none;
+  }
+  
+  .right-sidebar .card-header {
+    font-weight: bold;
+  }
+  
+  .right-sidebar img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }  */
+   /* .sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    border-left: 1px solid #ddd; 
+    height: 100vh;  
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: end;
+    margin-right: 50%;
+  }
+  .sponsored{
+    display: flex;
+  }
+  .ad-item{
+    width: 10px;
+    height: 20px;
+  } */
+  /* .sidebar {
+    width: 400px;
+    background-color: #f8f9fa;
+    border-left: 1px solid #ddd;
+    height: 200vh;
+    position: sticky;
+    top: 0;
+  }
+  
+  .ad-item img {
+    width: 30px;
+    height: 80px;
+    object-fit: cover;
+  }
+  .ad-image{
+    width: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+  }
+  @media (max-width: 768px) {
+    
+    .sidebar {
+      width: 100%;
+      border-left: none;
+      border-top: 1px solid #ddd;
+      position: relative;
+      height: auto;
+    }
+  
+    .ad-item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .ad-item img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+   */
+   /* Sidebar container styling */
+   .sidebar {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .card-img-top {
+    height: 120px;
+    object-fit: cover;
+  }
+.dropdown-item:active{
+  background-color: #d5d5;
+}  
+.htag{
+  margin-top: 110px;
+  background-color: aquamarine !important;
+}

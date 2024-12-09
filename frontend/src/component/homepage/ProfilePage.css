@@ -1,0 +1,51 @@
+
+.editButton{
+    background-color: rgb(255, 161, 161);
+    /* width: 5vh;
+    height: 5vh; */
+    border-radius: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+#editIcon{
+    font-size: 3vh;
+}
+.editBTNtext{
+    margin-bottom: 0;
+    margin-right: 1vh;
+    margin-left: 1vh;
+}
+.profileDiv{
+    padding: 3vh;
+    
+    
+}
+/* .contant1{
+    height: 90%;
+} */
+ 
+@media (max-width: 768px) {
+    .editButton{
+        background-color: rgb(255, 161, 161);
+        width: 25vh;
+        border-radius: 10vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 2vh;
+        margin-left: 2vh;
+        margin-bottom: 5vh;
+        align-self: center;
+        justify-self: center;
+    }  
+    #change1{
+        
+        margin-top: 10%;
+    }
+    #changebottom{
+        margin-bottom: 10%;
+    }
+}
